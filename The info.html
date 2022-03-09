@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="The look.css" />
+    <script defer src="The functionality.js"></script>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item">
+        <button type="button">
+          <p>Home</p>
+        </button>
+      </div>
+      <div class="grid-item">
+        <a href="test.html">
+          <button type="button">
+            <p>Why rando?</p>
+          </button>
+        </a>
+      </div>
+      <div class="grid-item">
+        <button type="button">
+          <p>About me</p>
+        </button>
+      </div>
+      <div class="grid-item">
+        <button type="button">
+          <p>Links and credit</p>
+        </button>
+      </div>
+    </div>
+    <div class="background">
+      <div class="tutorial">
+        <h1>Step 1: Your Emulator</h1>
+        <div class="MainGang">
+          <input
+            type="image"
+            class="lil"
+            onclick="prevImg()"
+            src="Lil green arrow left.png"
+          />
+          <div class="mainImage">
+            <img
+              class="image"
+              src="https://user-images.githubusercontent.com/11250310/55484339-3f276780-5620-11e9-97cb-b8ac51a7d314.png"
+              alt="Snes9x icon"
+            />
+            <img src="Lil green arrow.png" id="image" hidden />
+          </div>
+          <input
+            type="image"
+            class="lil"
+            src="Lil green arrow.png"
+            onclick="nextImg()"
+          />
+          <p id="demo"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
