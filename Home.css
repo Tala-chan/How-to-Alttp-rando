@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+}
+@font-face {
+  font-family: "Alttp"; /*a name to be used later*/
+  src: url("RetGanon.ttf");
+}
+p {
+  font-family: "Alttp";
+}
+p.menu {
+  font-size: 26px;
+}
+p.text {
+  color: rgb(252, 237, 210);
+  font-size: 3vw;
+  margin: 1vw;
+}
+h1 {
+  color: rgb(252, 237, 210);
+  font-family: "Alttp";
+  font-size: 5.6vw;
+  margin-top: 9vw;
+  margin-right: 23vw;
+  white-space: nowrap;
+}
+p.bottom {
+  margin-bottom: 2%;
+}
+p.link {
+  color: rgb(252, 237, 210);
+  font-size: 4.5vw;
+  margin-top: 1vw;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #8f6e44;
+}
+.grid-item {
+  justify-content: center;
+  height: 100%;
+  background-color: #b59367;
+  border: 3px solid #8f6e44;
+  font-size: 30px;
+  text-align: center;
+}
+.thetext {
+  margin-top: 10vw;
+}
+.links {
+  text-align: left;
+  margin-right: 15vw;
+  margin-top: 2vw;
+}
+button {
+  height: 100%;
+  width: 100%;
+  background-color: #b59367;
+  padding: 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: none;
+  background: none;
+  font-size: 90%;
+  font-family: "Courier New", Courier, monospace;
+}
+.core {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.background {
+  background-image: url(https://cdn.discordapp.com/attachments/757960040987754498/954004278228434964/unknown.png);
+  background-size: 100vw;
+  min-height: 193vh;
+  background-repeat: no-repeat;
+}

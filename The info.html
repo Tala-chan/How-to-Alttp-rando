@@ -11,25 +11,27 @@
   <body>
     <div class="grid-container">
       <div class="grid-item">
-        <button type="button">
-          <p>Home</p>
-        </button>
+        <a href="Home.html">
+          <button type="button">
+            <p class="menu">Home</p>
+          </button>
+        </a>
       </div>
       <div class="grid-item">
-        <a href="test.html">
+        <a href="Why rando.html">
           <button type="button">
-            <p>Why rando?</p>
+            <p class="menu">Why rando?</p>
           </button>
         </a>
       </div>
       <div class="grid-item">
         <button type="button">
-          <p>About me</p>
+          <p class="menu">About me</p>
         </button>
       </div>
       <div class="grid-item">
         <button type="button">
-          <p>Links and credit</p>
+          <p class="menu">Links and credit</p>
         </button>
       </div>
     </div>
@@ -40,25 +42,52 @@
           <input
             type="image"
             class="lil"
+            id="prevArrow"
             onclick="prevImg()"
             src="Lil green arrow left.png"
+            hidden
           />
-          <div class="mainImage">
-            <img
-              class="image"
-              src="https://user-images.githubusercontent.com/11250310/55484339-3f276780-5620-11e9-97cb-b8ac51a7d314.png"
-              alt="Snes9x icon"
-            />
-            <img src="Lil green arrow.png" id="image" hidden />
+          <div class="mainImage" id="where">
+            <img id="00" src="Snes9x icon.png" alt="Snes9x icon" class="main" />
+            <img src="Snes9x download page.JPG" id="01" class="main" hidden />
+            <img src="Snes9x download link1.JPG" id="02" class="main" hidden />
+            <img src="Extract the zip.JPG" id="03" class="main" hidden />
           </div>
           <input
             type="image"
             class="lil"
+            id="nextArrow"
             src="Lil green arrow.png"
             onclick="nextImg()"
           />
-          <p id="demo"></p>
         </div>
+        <p>
+          The first step is choosing the Snes emulator you want to use. There
+          are many options, such as Zsnes, Bsnes and Bizhawk. However, one of
+          the most trusted and widely used emulators is Snes9x.
+        </p>
+        <p>
+          It is tried and true, as well as widely available for a casual
+          audience, while emulators such as Bizhawk favor speedrunners.
+          Therefore, for the purpose of this tutorial, this will be our emulator
+          of choise.
+        </p>
+        <p>
+          The original link to Snes9x doesn't exist anymore. However, many
+          archives have been compiled on
+          <a href="https://www.snes9x.com/downloads.php">it's home page.</a>
+          Anything goes, so simply click on one of those links, and follow the
+          instructions from there! We recommend that you use emulator zone, as
+          it's most easily aproachable for the eyes, and is a simple one-click
+          download.
+        </p>
+        <p>
+          Once the download completes, simply unzip the package, and your
+          emulator should be ready to go!
+        </p>
+        <p>
+          <a href=""></a>
+        </p>
       </div>
     </div>
   </body>

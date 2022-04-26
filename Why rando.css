@@ -3,7 +3,7 @@
 }
 h1 {
   color: burlywood;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Alttp";
   font-size: 450%;
 }
 @font-face {
@@ -13,8 +13,14 @@ h1 {
 p {
   font-family: "Alttp";
 }
+p.rows {
+  margin-bottom: 10px;
+}
 p.menu {
   font-size: 2.5vw;
+}
+p.bottom {
+  margin-bottom: 2%;
 }
 .grid-container {
   display: grid;
@@ -43,39 +49,23 @@ button {
 }
 .background {
   background-image: url(https://cdn.discordapp.com/attachments/757960040987754498/953225745021427772/Kakariko_village_street_texture.png);
-  background-repeat: repeat;
   min-height: 100vh;
+  background-repeat: repeat;
 }
-.tutorial {
+.core {
   width: 75%;
   margin: auto;
   text-align: center;
-  background-color: #d7f4e7;
+  background-color: #e9e0ca;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  align-items: center;
 }
-input.lil {
-  max-width: 7%;
+img.mainImg {
+  width: 90%;
+  margin-bottom: 2%;
 }
-img.lil {
-  max-width: 7%;
-}
-img.main {
-  max-width: 100%;
-}
-.MainGang {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.mainImage {
-  background-color: white;
-  border: 2px solid black;
-  height: 70vh;
-  width: 75%;
-  display: grid;
-  place-items: center;
-  align-self: center;
-  position: initial;
+img.smolImg {
+  width: 70%;
 }
